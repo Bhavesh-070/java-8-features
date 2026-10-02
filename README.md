@@ -9,6 +9,7 @@ A dedicated repository containing structured examples, revision exercises, and c
 | # | Topic | Description | Source Code |
 |:---:|:---|:---|:---:|
 | 01 | **Stream API: `filter()` & `collect()`** | Filtering elements based on predicate conditions (e.g. even numbers, salary thresholds) | [Problem_01.java](src/com/revision/streams/Problem_01.java) |
+| 02 | **Stream API: `map()` & Method References** | Transforming strings using `String::toUpperCase` and filtering by length | [Problem_02.java](src/com/revision/streams/Problem_02.java) |
 
 ---
 
@@ -22,7 +23,8 @@ java-8-features/
     └── com/
         └── revision/
             ├── streams/                 # Stream API operations (filter, map, flatMap, reduce, groupingBy)
-            │   └── Problem_01.java
+            │   ├── Problem_01.java
+            │   └── Problem_02.java
             ├── functional_interfaces/   # Predicate, Function, Consumer, Supplier
             ├── lambdas/                 # Lambda syntax & method references (::)
             └── optional/                # Optional handling & avoiding NPEs
